@@ -1,3 +1,2 @@
-#!/bin/bash
-current_directory=$(pwd)
-
+#!/bin/zsh
+echo "The absolute path name of the current working directory is: $(pwd)"
