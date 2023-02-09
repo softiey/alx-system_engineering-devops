@@ -1,3 +1,3 @@
 #!/bin/bash
-ABS_SCRIPT_PATH="$(realpath "${SCRIPT_PATH}")"
-echo "Value of ABS_SCRIPT_PATH: ${ABS_SCRIPT_PATH}"
+current_directory=$(pwd)
+
