@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "the quick brown fox jumps over the lazy dog" | ./script.sh
+echo -e "word1\nword2\nword3\nword2" | sort | uniq -u
