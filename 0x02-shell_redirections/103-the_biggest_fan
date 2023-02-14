@@ -1,0 +1,2 @@
+#!/bin/bash
+awk '{a[$1]++} END{for (i in a) print a[i], i | "sort -nr | head -11"}' inputfile
